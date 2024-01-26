@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color:  rgb(80, 35, 20); */
+    color: white;
+    background: linear-gradient(120deg, rgba(0, 20, 30, 1) 0%, rgba(0, 50, 40, 1) 15%, rgba(0, 80, 80, 1) 30%, rgba(37, 96, 78, 1) 50%, rgba(75, 116, 100, 1) 70%, rgba(100, 120, 110, 1) 100%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1500px;
+    margin-bottom: 8rem;
+}
+
+.cardapio-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.wrapperGrid{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f2e5d4;
+    border-radius: 8px;
+}
+
+.wrapper-thumbnail{
+    border-radius: 4px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    max-width: 350px;
+    background-color: #f2e5d4;
+}
+
+h3{
+    font-size: 1.3rem;
+    line-height: 1;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.thumbnail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figure{
+    height: 100%;
+}
+
+.coupon-info{
+    border-radius: 8px;
+    min-height: 80px;
+    margin-bottom: 1rem;
+}
