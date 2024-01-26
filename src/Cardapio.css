@@ -63,12 +63,18 @@ h3{
     justify-content: center;
 }
 
+.thumbnail img{
+    width: 500px;
+    height: 264px;
+    
+}
+
 figure{
     height: 100%;
 }
 
-.coupon-info{
-    border-radius: 8px;
+.img-info{
     min-height: 80px;
     margin-bottom: 1rem;
+    
 }
