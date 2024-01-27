@@ -33,7 +33,7 @@ const Almoço = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img className='imgAlimento' style={{ width:'340px'}} src={file_fritas} alt="Chicken Duplo"/>
+                <img className='imgAlimento' style={{ width:'300px'}} src={file_fritas} alt="Chicken Duplo"/>
               </figure>
             </div>
 
@@ -87,7 +87,7 @@ const Almoço = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src={file_peixe} alt="Chicken Duplo"/>
+                <img src={file_peixe} style={{width:'300px'}} alt="Chicken Duplo"/>
               </figure>
             </div>
 
