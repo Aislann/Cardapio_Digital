@@ -1,10 +1,10 @@
 import React from 'react'
-import mousse from '/src/imgs/Sobremesas/mousse.png'
-import brigadeiro from '/src/imgs/Sobremesas/brigadeiro.png'
-import frutas from '/src/imgs/Sobremesas/salada_de_frutas.png'
-import sorvete from '/src/imgs/Sobremesas/sorvete.png'
-import pudim from '/src/imgs/Sobremesas/pudim.png'
-import pave from '/src/imgs/Sobremesas/pave.png'
+import mousse from '/src/imgs/sobremesas/mousse.png'
+import brigadeiro from '/src/imgs/sobremesas/brigadeiro.png'
+import frutas from '/src/imgs/sobremesas/salada_de_frutas.png'
+import sorvete from '/src/imgs/sobremesas/sorvete.png'
+import pudim from '/src/imgs/sobremesas/pudim.png'
+import pave from '/src/imgs/sobremesas/pave.png'
 
 const Sobremesas = () => {
   return (
