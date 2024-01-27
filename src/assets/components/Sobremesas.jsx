@@ -1,4 +1,10 @@
 import React from 'react'
+import mousse from '/src/imgs/Sobremesas/mousse.png'
+import brigadeiro from '/src/imgs/Sobremesas/brigadeiro.png'
+import frutas from '/src/imgs/Sobremesas/salada_de_frutas.png'
+import sorvete from '/src/imgs/Sobremesas/sorvete.png'
+import pudim from '/src/imgs/Sobremesas/pudim.png'
+import pave from '/src/imgs/Sobremesas/pave.png'
 
 const Sobremesas = () => {
   return (
@@ -9,7 +15,7 @@ const Sobremesas = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&amp;focal=none" alt="Chicken Duplo" title="Chicken Duplo" />
+                <img src={mousse} />
               </figure>
             </div>
 
@@ -17,7 +23,7 @@ const Sobremesas = () => {
               <div className="inner">
                 <div className="desc">
                   <h3>Mousse</h3>
-                  <h3>R$ 99,99</h3>
+                  <h3>R$ 5,99</h3>
                 </div>
               </div>
             </div>
@@ -27,7 +33,7 @@ const Sobremesas = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&amp;focal=none" alt="Chicken Duplo" title="Chicken Duplo" />
+                <img src={pudim} />
               </figure>
             </div>
 
@@ -35,7 +41,7 @@ const Sobremesas = () => {
               <div className="inner">
                 <div className="desc">
                   <h3>Pudim</h3>
-                  <h3>R$ 99,99</h3>
+                  <h3>R$ 5,99</h3>
                 </div>
               </div>
             </div>
@@ -45,7 +51,7 @@ const Sobremesas = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&amp;focal=none" alt="Chicken Duplo" title="Chicken Duplo" />
+                <img src={brigadeiro} />
               </figure>
             </div>
 
@@ -53,7 +59,7 @@ const Sobremesas = () => {
               <div className="inner">
                 <div className="desc">
                   <h3>Brigadeiro</h3>
-                  <h3>R$ 99,99</h3>
+                  <h3>R$ 4,99</h3>
                 </div>
               </div>
             </div>
@@ -63,15 +69,15 @@ const Sobremesas = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&amp;focal=none" alt="Chicken Duplo" title="Chicken Duplo" />
+                <img src={pave} />
               </figure>
             </div>
 
             <div className="img-info">
               <div className="inner">
                 <div className="desc">
-                  <h3>Palha Italiana</h3>
-                  <h3>R$ 99,99</h3>
+                  <h3>Pavê</h3>
+                  <h3>R$ 9,99</h3>
                 </div>
               </div>
             </div>
@@ -81,7 +87,7 @@ const Sobremesas = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&amp;focal=none" alt="Chicken Duplo" title="Chicken Duplo" />
+                <img src={frutas} />
               </figure>
             </div>
 
@@ -89,7 +95,7 @@ const Sobremesas = () => {
               <div className="inner">
                 <div className="desc">
                   <h3>Salada de Frutas</h3>
-                  <h3>R$ 99,99</h3>
+                  <h3>R$ 4,99</h3>
                 </div>
               </div>
             </div>
@@ -99,7 +105,7 @@ const Sobremesas = () => {
           <div className="wrapperGrid">
             <div className="wrapper-thumbnail">
               <figure className="thumbnail" style={{ backgroundColor: 'rgb(242, 229, 212)' }}>
-                <img src="https://d3sn2rlrwxy0ce.cloudfront.net/chicken-duplo-thumb.png?mtime=20210916143308&amp;focal=none" alt="Chicken Duplo" title="Chicken Duplo" />
+                <img src={sorvete} />
               </figure>
             </div>
 
@@ -107,7 +113,7 @@ const Sobremesas = () => {
               <div className="inner">
                 <div className="desc">
                   <h3>Sorvete</h3>
-                  <h3>R$ 99,99</h3>
+                  <h3>R$ 5,99</h3>
                 </div>
               </div>
             </div>
